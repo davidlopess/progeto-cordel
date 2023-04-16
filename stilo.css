@@ -1,0 +1,143 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Passion+One&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Damion', cursive;
+    --font3: 'Passion One', cursive;
+}
+
+
+/* --------------------- */
+
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
+
+
+header{
+    background: black;
+    color: white;
+    
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 3.5em;
+    
+}
+
+
+header p{
+    padding-bottom: 50px;
+}
+
+
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+
+/* ============================ */
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+section.normal{
+    background-color: white;
+}
+
+
+
+section.imagem{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.518);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: center center;  
+    background-repeat: no-repeat;  
+}
+
+
+section.imagem#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: center center;  
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+}
+
+
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.194);
+    color: white;
+    width: 300px;
+    padding: 5px;
+    text-shadow: 2px 2px 8px black;
+    
+}
+
+section p{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
